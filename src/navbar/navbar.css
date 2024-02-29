@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+#program-binar,
+#binar-corp,
+#jobconnect,
+#literasi,
+#about {
+  font-size: 16px;
+  color: #933393;
+  font-family: "Quicksand";
+}
+
+#about {
+  padding: 8px;
+}
+
+#btn-my-learning {
+  color: #ffffff;
+  padding: 13px 24px;
+  background-color: #933393;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+
+
+

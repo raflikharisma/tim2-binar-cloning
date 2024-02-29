@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+#title-jangkauan {
+  color: #933393;
+  font-size: 36px;
+  font-weight: 700px;
+}
+
+#yellow-37,
+#yellow-5 {
+  color: #f99d1c;
+  font-size: 55px;
+}
+
+#provinsi,
+#negara {
+  width: 220px;
+  height: 90px;
+  font-size: 20px;
+  text-align: left;
+  margin-left: 20px;
+  font-family: "Quicksand";
+  font-weight: 300px;
+}
