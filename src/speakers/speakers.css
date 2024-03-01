@@ -1,0 +1,47 @@
+section#speakers {
+    h2 {
+        color: purple;
+        font-weight: 700;
+    }
+    p {
+        color: gray;
+    }
+}
+
+.speakers-card {
+    width: 208px;
+    height: 350px;
+    border: 1px solid rgb(188, 188, 188);
+    overflow: hidden;
+    border-radius: 10px;
+
+    transition: 0.25s ease-in-out;
+}
+
+.speakers-card:hover {
+    transform: scale(1.1);
+    background-color: purple;
+    transition: 0.25s ease-in-out;
+
+    .speakers-card__body p {
+        color: white !important;
+    }
+}
+
+.speakers-card img {
+    height: 60%;
+    object-fit: contain;
+}
+
+.speakers-card__body {
+    text-align: start;
+}
+
+.speakers-name {
+    font-weight: 700;
+}
+
+.speakers-description {
+    font-weight: 400;
+    font-size: 14px;
+}
