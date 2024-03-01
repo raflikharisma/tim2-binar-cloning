@@ -1,3 +1,15 @@
-#iframe-binar {
-    
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+#kenali-potensi {
+  color: #933393 !important;
+  font-family: "Quicksand";
+  font-size: 36px;
+}
+
+#kenali-potensi-desc {
+  color: #696969;
+  font-family: "Quicksand";
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
