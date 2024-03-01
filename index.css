@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+#program-binar,
+#binar-corp,
+#jobconnect,
+#literasi,
+#about {
+  font-size: 16px;
+  color: #933393;
+  font-family: "Quicksand";
+}
+
+#about {
+  padding: 8px;
+}
+
+#btn-my-learning {
+  color: #ffffff;
+  padding: 13px 24px;
+  background-color: #933393;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+//features begin css
+section#features {
+  h2 {
+    color: purple;
+    font-weight: bold;
+  }
+
+  p {
+    color: gray;
+  }
+
+  .features-button {
+    background: transparent;
+    border-radius: 10px;
+    border: 1px solid purple;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    padding: 20px 15px;
+    color: purple;
+    font-weight: 500;
+  }
+}
+
+#features-list {
+  padding-inline: 170px;
+  h3 {
+    color: purple;
+  }
+
+  p {
+    text-transform: capitalize;
+  }
+  img {
+    width: 73px;
+    height: 72px;
+  }
+}
