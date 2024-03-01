@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
 
-//nav
 #program-binar,
 #binar-corp,
 #jobconnect,
@@ -24,7 +23,6 @@
   line-height: 22px;
 }
 
-//features begin css
 section#features {
   h2 {
     color: purple;
@@ -66,7 +64,6 @@ section#features {
   }
 }
 
-//explore
 section#explore-course {
   h2 {
     color: purple;
@@ -228,8 +225,6 @@ section#explore-course .course-button:hover {
   transition: 0.25s ease-in-out;
 }
 
-//Jangkauan css
-
 #title-jangkauan {
   color: #933393;
   font-size: 36px;
@@ -252,8 +247,6 @@ section#explore-course .course-button:hover {
   font-family: "Quicksand";
   font-weight: 300px;
 }
-
-//sertifikat
 
 #certificate-h1 {
   color: #933393;
@@ -351,8 +344,6 @@ section#explore-course .course-button:hover {
   flex: 1;
   text-align: center;
 }
-
-//kenali potensi
 #kenali-potensi {
   color: #933393 !important;
   font-family: "Quicksand";
@@ -367,7 +358,6 @@ section#explore-course .course-button:hover {
   margin-bottom: 40px;
 }
 
-//review
 /* Review Alumni */
 .page-home-alumni-profile {
   flex: 1;
@@ -382,7 +372,6 @@ section#explore-course .course-button:hover {
   gap: 28px;
 }
 
-//kampus partner css
 section#partner {
   h2 {
     color: purple;
@@ -394,7 +383,6 @@ section#partner {
   }
 }
 
-//Speaker
 section#speakers {
   h2 {
     color: purple;
@@ -443,7 +431,6 @@ section#speakers {
   font-size: 14px;
 }
 
-//Corporate
 #corporate {
   position: relative;
   background-color: #77287d !important;
@@ -550,7 +537,6 @@ section#speakers {
   box-shadow: -1px 1px 3px 2px rgba(0, 0, 0, 0.1);
 }
 
-//mengajar
 .teach-section {
   background-color: #f99d1c;
   padding-top: 0;
@@ -634,7 +620,6 @@ section#speakers {
   display: inline-block;
 }
 
-//carousel bawah rendi
 /* Carousel Bawah */
 .carousel-indicators button {
   width: 10px !important; /* lebar tombol */
