@@ -1,0 +1,34 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#certificate-h1 {
+  color: #933393;
+  vertical-align: middle;
+  display: inline-block;
+  font-size: 36px;
+  line-height: 54px;
+}
+
+#certificate-p {
+  color: #696969;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#certificate-btn {
+  background-color: #933393;
+  text-align: center;
+  border-radius: 8px;
+  margin-top: 24px;
+  padding: 17px 24px;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+#certificate-link {
+  text-decoration: none;
+  color: #ffffff;
+}
