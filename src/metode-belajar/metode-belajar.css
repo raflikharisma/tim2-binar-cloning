@@ -1,0 +1,49 @@
+/* Metode Belajar */
+#metode-belajar {
+  background-color: #77287d;
+}
+
+.row-custom {
+  border-bottom: #ffffff solid 3px;
+}
+.row-custom:last-child {
+  border-bottom: none;
+}
+
+.btn-review {
+  background-color: #f99d1c;
+  border: #f99d1c;
+  height: 40px;
+  width: 200px;
+  border-radius: 10px;
+}
+.btn-review {
+  background-color: #f99d1c !important;
+  border: #f99d1c !important;
+  height: 40px;
+  width: 200px;
+  border-radius: 10px;
+  transition: transform 0.3s ease !important; /* Menambahkan efek transisi */
+}
+
+.btn-review:hover {
+  transform: scale(1.1) !important; /* Mengubah ukuran tombol saat dihover */
+}
+
+.new-update-label-container {
+  background-color: #009db1;
+  border-radius: 9999px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+  padding: 2px 5px;
+  display: flex;
+  width: 100px;
+  height: 20px;
+}
+
+.text-block-89 {
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 12px;
+}

@@ -1,0 +1,45 @@
+/* Carousel Bawah */
+.carousel-indicators button {
+  width: 10px !important; /* lebar tombol */
+  height: 10px !important; /* tinggi tombol */
+  background-color: #b3aaaa !important; /* warna latar belakang untuk tombol yang aktif */
+  border-radius: 50%; /* membuat tombol berbentuk bulat */
+}
+.carousel-indicators button.active {
+  width: 10px !important; /* lebar tombol */
+  height: 10px !important; /* tinggi tombol */
+  border-radius: 50%; /* membuat tombol berbentuk bulat */
+  background-color: #77287d !important; /* warna latar belakang untuk tombol yang aktif */
+}
+
+#carousel2.carousel-control-prev-icon {
+  background-image: url("https://assets-global.website-files.com/5e70b9a791ceb781b605048c/62e87e27dfeb897fa5197ac6_Icon%20Arrow%20Left%20Purple.svg");
+  width: 80px;
+  height: 80px;
+}
+
+#carousel2.carousel-control-next-icon {
+  background-image: url("https://assets-global.website-files.com/5e70b9a791ceb781b605048c/62e87e27dfeb897fa5197ac6_Icon%20Arrow%20Left%20Purple.svg");
+  transform: scaleX(-1);
+  width: 80px;
+  height: 80px;
+}
+
+.carousel-control-prev {
+  left: 0; /* Memposisikan setengah tombol di dalam kotak carousel */
+  transform: translateX(
+    -50%
+  ); /* Menggeser setengah tombol ke kiri sejauh setengah lebar tombol */
+}
+
+.carousel-control-next {
+  right: 0; /* Memposisikan setengah tombol di dalam kotak carousel */
+  transform: translateX(
+    50%
+  ); /* Menggeser setengah tombol ke kanan sejauh setengah lebar tombol */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  opacity: 1 !important; /* Ensure opacity remains at 1 */
+}
