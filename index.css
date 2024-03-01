@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
 
+//nav
 #program-binar,
 #binar-corp,
 #jobconnect,
@@ -63,4 +64,615 @@ section#features {
     width: 73px;
     height: 72px;
   }
+}
+
+//explore
+section#explore-course {
+  h2 {
+    color: purple;
+    font-weight: bold;
+  }
+}
+
+.list-arrow__right,
+.list-arrow__left {
+  position: absolute;
+  background-color: wheat;
+  width: fit-content;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px;
+  margin-top: 5px;
+}
+
+.list-arrow__left {
+  transform: rotate(180deg);
+  left: 11%;
+  display: none;
+}
+
+.list-arrow__right {
+  right: 14%;
+  display: none;
+}
+
+.arrow-active {
+  display: flex;
+}
+
+.list-arrow__right:hover,
+.list-arrow__left:hover {
+  background-color: white;
+}
+
+#course-list {
+  display: flex;
+  gap: 10px;
+  flex-wrap: nowrap;
+  -ms-overflow-style: none;
+  margin-right: 65px;
+  overflow: scroll;
+
+  li {
+    list-style: none;
+    text-wrap: nowrap;
+    padding: 12px 20px;
+    color: purple;
+    font-weight: bold;
+    border: 1px solid purple;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .course-list__active {
+    background-color: orange;
+    border: none;
+    color: black;
+  }
+}
+
+#course-list::-webkit-scrollbar {
+  display: none;
+}
+
+.explore-course__cards {
+  display: flex;
+  gap: 10px;
+}
+
+.explore-course__card {
+  padding: 0;
+  width: 350px;
+  overflow: hidden;
+  border-radius: 10px;
+
+  transition: 0.25s ease-in-out;
+}
+
+.explore-course__card img {
+  width: 100%;
+  object-fit: fill;
+}
+
+.explore-course__card .course-card__type {
+  background-color: orange;
+  padding: 5px 10px;
+  text-align: start;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.explore-course__card:hover {
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.75);
+  transition: 0.25s ease-in-out;
+}
+
+.course-card__body {
+  padding: 16px;
+  min-height: 60%;
+
+  background-color: #5b2652;
+  color: white;
+  font-weight: 500;
+}
+
+.course-card__date {
+  font-size: 14px;
+  font-weight: 400;
+
+  img {
+    width: 16px;
+    height: 16px;
+  }
+
+  p {
+    color: orange;
+  }
+}
+
+.course-card__title {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.course-card__description {
+  font-size: 16px;
+  font-weight: 400;
+
+  color: whitesmoke;
+}
+
+.card-price {
+  color: orange;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+section#explore-course .course-button {
+  padding: 15px 20px;
+  background: orange;
+  font-weight: 600;
+  border-radius: 10px;
+  border: none;
+
+  transition: 0.25s ease-in-out;
+}
+
+section#explore-course .course-button:hover {
+  background: rgb(235, 100, 4);
+  transform: scale(1.1);
+  transition: 0.25s ease-in-out;
+}
+
+//Jangkauan css
+
+#title-jangkauan {
+  color: #933393;
+  font-size: 36px;
+  font-weight: 700px;
+}
+
+#yellow-37,
+#yellow-5 {
+  color: #f99d1c;
+  font-size: 55px;
+}
+
+#provinsi,
+#negara {
+  width: 220px;
+  height: 90px;
+  font-size: 20px;
+  text-align: left;
+  margin-left: 20px;
+  font-family: "Quicksand";
+  font-weight: 300px;
+}
+
+//sertifikat
+
+#certificate-h1 {
+  color: #933393;
+  vertical-align: middle;
+  display: inline-block;
+  font-size: 36px;
+  line-height: 54px;
+}
+
+#certificate-p {
+  color: #696969;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#certificate-btn {
+  background-color: #933393;
+  text-align: center;
+  border-radius: 8px;
+  margin-top: 24px;
+  padding: 17px 24px;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+#certificate-link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#cari-kerja {
+  background-color: #f99d1c;
+  padding-top: 10px;
+  padding-bottom: 0;
+  position: relative;
+}
+
+.container-ckerja {
+  display: flex;
+  max-width: 1250px;
+  margin: 5px auto;
+}
+
+.text {
+  flex: 1;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.text h2 {
+  color: #121212;
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 36px;
+  line-height: 54px;
+  font-weight: 700;
+}
+
+.text h3 {
+  color: #121212;
+  margin-bottom: 32px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+#ckerja-btn {
+  background-color: #933393;
+}
+
+#ckerja-btn:hover {
+  color: white;
+  background-color: #77287d;
+  transform: scale(1.05);
+  box-shadow: -1px 1px 3px 2px rgba(0, 0, 0, 0.1);
+}
+
+#ckerja-link {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  border-radius: 8px;
+  padding: 10px 5px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  text-decoration: none;
+  transition: all 0.2s;
+  display: inline-block;
+}
+
+.image {
+  flex: 1;
+  text-align: center;
+}
+
+//kenali potensi
+#kenali-potensi {
+  color: #933393 !important;
+  font-family: "Quicksand";
+  font-size: 36px;
+}
+
+#kenali-potensi-desc {
+  color: #696969;
+  font-family: "Quicksand";
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+//review
+/* Review Alumni */
+.page-home-alumni-profile {
+  flex: 1;
+  align-items: center;
+  margin-top: 40px;
+  display: flex;
+  gap: 10px;
+}
+
+.container-review {
+  display: flex;
+  gap: 28px;
+}
+
+//kampus partner css
+section#partner {
+  h2 {
+    color: purple;
+    font-weight: 700;
+  }
+  img {
+    height: 120px;
+    width: 120px;
+  }
+}
+
+//Speaker
+section#speakers {
+  h2 {
+    color: purple;
+    font-weight: 700;
+  }
+  p {
+    color: gray;
+  }
+}
+
+.speakers-card {
+  width: 208px;
+  height: 350px;
+  border: 1px solid rgb(188, 188, 188);
+  overflow: hidden;
+  border-radius: 10px;
+
+  transition: 0.25s ease-in-out;
+}
+
+.speakers-card:hover {
+  transform: scale(1.1);
+  background-color: purple;
+  transition: 0.25s ease-in-out;
+
+  .speakers-card__body p {
+    color: white !important;
+  }
+}
+
+.speakers-card img {
+  height: 60%;
+  object-fit: contain;
+}
+
+.speakers-card__body {
+  text-align: start;
+}
+
+.speakers-name {
+  font-weight: 700;
+}
+
+.speakers-description {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+//Corporate
+#corporate {
+  position: relative;
+  background-color: #77287d !important;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  background-color: #77287d !important;
+}
+
+.corporate-container {
+  position: relative;
+}
+
+.w-container {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.corporate-block.center {
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  display: flex;
+}
+
+.corporate-heading.h2 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 36px;
+  line-height: 46px;
+  display: block;
+}
+
+.corporate-sub-heading {
+  color: #fff;
+  text-align: center;
+  margin-top: 8px;
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.corporate-grid.top-gap {
+  align-items: end;
+  margin-top: 32px;
+}
+
+.corporate-grid {
+  width: 100%;
+  grid-column-gap: 30px;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  display: grid;
+}
+
+.corporate-card {
+  background-color: white;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px;
+  display: flex;
+}
+
+.corporate-card-title {
+  color: #933393;
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-size: 36px;
+  line-height: 54px;
+}
+
+.corporate-card-description p {
+  color: dimgrey;
+  text-align: center;
+  margin-bottom: 24px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.button-large {
+  background-color: #933393;
+  color: white;
+  text-align: center;
+  border-radius: 8px;
+  padding: 17px 24px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  text-decoration: none;
+  transition: all 0.2s;
+  display: inline-block;
+}
+
+.button-large:hover {
+  color: white;
+  background-color: #77287d;
+  transform: scale(1.05);
+  box-shadow: -1px 1px 3px 2px rgba(0, 0, 0, 0.1);
+}
+
+//mengajar
+.teach-section {
+  background-color: #f99d1c;
+  padding-top: 0;
+  padding-bottom: 0;
+  position: relative;
+}
+
+#home-container {
+  z-index: 2;
+  width: 90%;
+  max-width: 1110px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home-teach {
+  grid-template-rows: auto;
+  align-items: end;
+}
+
+.layout {
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  display: grid;
+}
+
+.teach-content {
+  flex-direction: column;
+  align-items: center;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  display: flex;
+}
+
+.teach-heading {
+  color: black;
+  margin-top: 0;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 8px;
+  font-size: 36px;
+  line-height: 54px;
+}
+
+.teach-description {
+  color: black;
+  font-family: "Poppins", sans-serif;
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+
+.binar-btn {
+  background-color: #933393;
+  color: white;
+  text-align: center;
+  border-radius: 8px;
+  padding: 17px 24px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  text-decoration: none;
+  transition: all 0.2s;
+  display: inline-block;
+}
+
+.binar-btn:hover {
+  transform: scale(1.05);
+  background-color: #7e2a7e;
+}
+
+.teach-image {
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+//carousel bawah rendi
+/* Carousel Bawah */
+.carousel-indicators button {
+  width: 10px !important; /* lebar tombol */
+  height: 10px !important; /* tinggi tombol */
+  background-color: #b3aaaa !important; /* warna latar belakang untuk tombol yang aktif */
+  border-radius: 50%; /* membuat tombol berbentuk bulat */
+}
+.carousel-indicators button.active {
+  width: 10px !important; /* lebar tombol */
+  height: 10px !important; /* tinggi tombol */
+  border-radius: 50%; /* membuat tombol berbentuk bulat */
+  background-color: #77287d !important; /* warna latar belakang untuk tombol yang aktif */
+}
+
+#carousel2.carousel-control-prev-icon {
+  background-image: url("https://assets-global.website-files.com/5e70b9a791ceb781b605048c/62e87e27dfeb897fa5197ac6_Icon%20Arrow%20Left%20Purple.svg");
+  width: 80px;
+  height: 80px;
+}
+
+#carousel2.carousel-control-next-icon {
+  background-image: url("https://assets-global.website-files.com/5e70b9a791ceb781b605048c/62e87e27dfeb897fa5197ac6_Icon%20Arrow%20Left%20Purple.svg");
+  transform: scaleX(-1);
+  width: 80px;
+  height: 80px;
+}
+
+.carousel-control-prev {
+  left: 0; /* Memposisikan setengah tombol di dalam kotak carousel */
+  transform: translateX(-50%); /* Menggeser setengah tombol ke kiri sejauh setengah lebar tombol */
+}
+
+.carousel-control-next {
+  right: 0; /* Memposisikan setengah tombol di dalam kotak carousel */
+  transform: translateX(50%); /* Menggeser setengah tombol ke kanan sejauh setengah lebar tombol */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  opacity: 1 !important; /* Ensure opacity remains at 1 */
 }
